@@ -1,0 +1,50 @@
+Project Template License (Required In-Product Attribution)
+Version 1.0
+
+Copyright (c) 2026 alisa lutish
+
+This license applies to the original code, assets and documentation in Project
+Template that the copyright holder makes available under this license (the
+"Software"). Third-party materials and dependencies are excluded and remain
+subject to their respective licenses.
+
+Permission is granted, free of charge, to use, copy, modify, combine, distribute,
+sublicense and sell the Software, including as part of commercial games and other
+products, subject to all of the following conditions:
+
+1. Preserve notices. Include this license and the above copyright notice with
+   copies or substantial portions of the Software, including modified copies.
+   For a compiled product, these notices may be included in an accompanying
+   license file or an accessible legal-notices section inside the product.
+
+2. Give credit inside the product. Every game or application distributed or made
+   publicly available that incorporates the Software, including modified
+   versions, must display the following credit in its in-product credits screen
+   or credits sequence:
+
+   Project Template — alisa lutish
+
+   The credit must be legible and accessible to ordinary users of the product.
+   If the product has no credits screen or credits sequence, it must provide an
+   accessible in-product Credits or About section containing this credit.
+   A README, source-code comment, license file, repository link or store-page
+   description alone does not satisfy this requirement. Private development
+   builds that are not distributed or made publicly available do not need to
+   display the credit.
+
+3. Preserve these conditions. Redistribution and sublicensing must preserve
+   these conditions for the Software. Recipients must receive this license;
+   they may not be told that the Software is available without its attribution
+   and notice requirements. These conditions do not require publication of your
+   product's source code or licensing your independently authored code under
+   this license.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+This is a custom license, not the MIT License.

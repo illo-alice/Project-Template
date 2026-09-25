@@ -39,4 +39,14 @@ Start from `Assets/Game/Scenes/Bootstrap.unity`. Use two machines/accounts to te
 
 This is a template, not a finished game: the player prefab retains networking, voice and save hooks, but has no character model, ragdoll or movement controller. Photon authentication currently uses a locally generated development ID, not verified Steam authentication. Host migration is not implemented. Full two-account invitation testing is still pending.
 
-The UI uses **Love Ya Like A Sister** by Kimberly Geswein, distributed under the [SIL Open Font License](Assets/Game/UI/Font/OFL.txt). Third-party SDKs retain their own licenses.
+## License and credit
+
+Created by **alisa lutish**. The original project code, assets and documentation are available under the custom [Project Template License](LICENSE). You may use and modify the template, including in commercial games, without publishing your game's source code.
+
+**Released games and applications must include this visible credit in their in-product credits:**
+
+> Project Template — alisa lutish
+
+If there is no credits screen or sequence, add an accessible in-product Credits/About section. A README or license file alone is not enough. Also retain the copyright notice and license text as described in [LICENSE](LICENSE). This is a custom license, not MIT.
+
+The UI uses **Love Ya Like A Sister** by Kimberly Geswein, distributed under the [SIL Open Font License](Assets/Game/UI/Font/OFL.txt). Third-party materials and SDKs retain their own licenses and are not relicensed by this project.
