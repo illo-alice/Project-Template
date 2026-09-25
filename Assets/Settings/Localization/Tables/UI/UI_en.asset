@@ -1,0 +1,483 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: UI_en
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 23a1b164a6e9d3347b14ed1f356f1a28, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 92557488128
+    m_Localized: Failed to connect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 421210566656
+    m_Localized: Try again or play offline?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 497349767168
+    m_Localized: Try again
+    m_Metadata:
+      m_Items: []
+  - m_Id: 544825094144
+    m_Localized: Play offline
+    m_Metadata:
+      m_Items: []
+  - m_Id: 583953756160
+    m_Localized: Loading
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5869389164544
+    m_Localized: Connecting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6156103397376
+    m_Localized: Disconnected
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127416795869184
+    m_Localized: Leaving
+    m_Metadata:
+      m_Items: []
+  - m_Id: 335173289455616
+    m_Localized: Host Game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 335304474701824
+    m_Localized: Join Game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 335621153042432
+    m_Localized: Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 335721497571328
+    m_Localized: Quit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 335791018160128
+    m_Localized: Continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 335861725736960
+    m_Localized: Invite Friends
+    m_Metadata:
+      m_Items: []
+  - m_Id: 336006458585088
+    m_Localized: Leave
+    m_Metadata:
+      m_Items: []
+  - m_Id: 336551479029760
+    m_Localized: Credits
+    m_Metadata:
+      m_Items: []
+  - m_Id: 341083126706176
+    m_Localized: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 341672833265664
+    m_Localized: Game created by
+    m_Metadata:
+      m_Items: []
+  - m_Id: 438815887667200
+    m_Localized: Applying Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 438815887667201
+    m_Localized: Could not load settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 438815887667202
+    m_Localized: Settings could not be initialized. Automatic recovery could not
+      be completed. Please restart the game. If the problem persists, check write
+      access to the settings folder and available disk space.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 438815887667203
+    m_Localized: Settings have been restored from a backup.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 438815887667204
+    m_Localized: Saved settings could not be loaded. Default settings have been applied.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 438815887667205
+    m_Localized: 'Main file error:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 438815887667206
+    m_Localized: 'Backup file error:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 438815887667207
+    m_Localized: Settings recovery
+    m_Metadata:
+      m_Items: []
+  - m_Id: 438815887667208
+    m_Localized: OK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1050688748204032
+    m_Localized: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1050775784206336
+    m_Localized: General
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1050796248215552
+    m_Localized: Controls
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1050822529724416
+    m_Localized: Graphics
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1050850572840960
+    m_Localized: Audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1050865269682176
+    m_Localized: Online
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124908556288
+    m_Localized: Mouse sensitivity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124908556289
+    m_Localized: Invert camera Y
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124908556290
+    m_Localized: Screen mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124908556291
+    m_Localized: Resolution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124908556292
+    m_Localized: Vertical synchronization
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750592
+    m_Localized: FPS limit (when VSync is off)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750593
+    m_Localized: Graphics quality
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750594
+    m_Localized: Microphone mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750595
+    m_Localized: Input device
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750596
+    m_Localized: Region (on next connection)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750597
+    m_Localized: Show ping
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750598
+    m_Localized: Windowed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750599
+    m_Localized: Borderless
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750600
+    m_Localized: Fullscreen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750601
+    m_Localized: Unlimited
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750602
+    m_Localized: Off
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750603
+    m_Localized: Push to talk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750604
+    m_Localized: Voice activation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750605
+    m_Localized: System default
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750606
+    m_Localized: Automatic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750607
+    m_Localized: Reset
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750608
+    m_Localized: Click a key to change it. Esc cancels.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750609
+    m_Localized: Press a key (Esc to cancel)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750610
+    m_Localized: This key is already assigned. Choose another key.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750611
+    m_Localized: Move
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750612
+    m_Localized: Attack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750613
+    m_Localized: Interact
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750614
+    m_Localized: Crouch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750615
+    m_Localized: Jump
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750616
+    m_Localized: Previous
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750617
+    m_Localized: Next
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750618
+    m_Localized: Sprint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750619
+    m_Localized: Push to talk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750620
+    m_Localized: Forward
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750621
+    m_Localized: Backward
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750622
+    m_Localized: Left
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750623
+    m_Localized: Right
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1193990478835712
+    m_Localized: Save System Initializing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1206540436189184
+    m_Localized: Play
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1219000000000001
+    m_Localized: 'Last saved: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1219000000000002
+    m_Localized: 'Created: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1219000000000003
+    m_Localized: No saves yet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1219000000000004
+    m_Localized: No preview
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1233013385670656
+    m_Localized: New Game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1236072266412032
+    m_Localized: Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1238614459232256
+    m_Localized: Choose
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1242619642064896
+    m_Localized: Game Parameters
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1870169259061248
+    m_Localized: Creating Lobby
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1871807210270720
+    m_Localized: Creating Session
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1870169259061249
+    m_Localized: Max players
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1870169259061250
+    m_Localized: Allow joining
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1870169259061251
+    m_Localized: Friends only
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1871807210270721
+    m_Localized: General
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1871807210270722
+    m_Localized: Controls
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1871807210270723
+    m_Localized: Graphics
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1871807210270724
+    m_Localized: Audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1871807210270725
+    m_Localized: Online
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1960147779530752
+    m_Localized: COPY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1960313026719744
+    m_Localized: COPIED
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1961412211191808
+    m_Localized: Room Code
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1961412211191810
+    m_Localized: Error
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1961412211191811
+    m_Localized: Could not return to the main menu. Try again.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1961412211191812
+    m_Localized: Could not create the lobby or start the session.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1961412211191813
+    m_Localized: Delete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1961412211191814
+    m_Localized: Cancel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1961412211191815
+    m_Localized: Delete save?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1961412211191816
+    m_Localized: Are you sure you want to delete the save "{0}"? This cannot be undone.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1961412211191817
+    m_Localized: Could not delete the save. Please try again.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1961412211191818
+    m_Localized: Lobby access
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1961412211191819
+    m_Localized: Invite only
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1961412211191820
+    m_Localized: Friends only
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1961412211191821
+    m_Localized: Closed lobby
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1961412211191822
+    m_Localized: Starting Steam...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1961412211191823
+    m_Localized: Steam is unavailable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1961412211191824
+    m_Localized: Could not initialize Steam. Start Steam and launch the game from
+      your library.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2536005205712896
+    m_Localized: Join
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1961412211191826
+    m_Localized: Could not join the lobby. Check the room code and try again.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1961412211191825
+    m_Localized: Could not connect to the server. Please try again.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1961412211191905
+    m_Localized: Copied
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1961412211191906
+    m_Localized: Creating save
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1961412211191907
+    m_Localized: Loading save
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
+

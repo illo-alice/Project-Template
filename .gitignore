@@ -1,0 +1,74 @@
+# Unity-generated files and local editor state
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Bb]uild/
+/[Bb]uilds/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+/.idea/
+/.vs/
+/.vscode/
+*.csproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.log
+*.tmp
+*.bak
+*.unitypackage
+*.zip
+*.7z
+/output/
+/steam_appid.txt
+
+# Install third-party SDKs locally; see Documentation/Setup.md
+/Assets/Photon/
+/Assets/Photon.meta
+/Assets/Plugins/
+/Assets/Plugins.meta
+/Assets/TextMesh Pro/
+/Assets/TextMesh Pro.meta
+/Assets/Universal Sound FX/
+/Assets/Universal Sound FX.meta
+
+# Local experiments / character assets
+/Assets/Game/Player/Ragdoll/
+/Assets/Game/Player/Ragdoll.meta
+/Assets/Game/Player/Controller/
+/Assets/Game/Player/Controller.meta
+/Assets/Game/Art/Characters/PeachTraveler/
+/Assets/Game/Art/Characters/PeachTraveler.meta
+/Assets/Game/Scenes/Test Scene.unity*
+# Empty folders retained only in local working copies
+/Assets/Game/Art.meta
+/Assets/Game/Art/Characters.meta
+/Assets/Game/Services/Session/Authentication/Steam.meta
+/Assets/Game/Services/SteamService/Editor.meta
+
+# Build products, personal service configuration and credentials
+/Assets/AddressableAssetsData/*/*.bin*
+/Assets/AddressableAssetsData/Windows/
+/Assets/AddressableAssetsData/Windows.meta
+/Assets/StreamingAssets/aa/
+/Assets/StreamingAssets/aa.meta
+**/PhotonAppSettings.asset
+**/PhotonAppSettings.asset.meta
+**/PhotonServerSettings.asset
+**/PhotonServerSettings.asset.meta
+.env
+.env.*
+*.key
+*.p12
+*.pfx
+.DS_Store
+Thumbs.db

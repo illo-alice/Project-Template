@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbc027f3c9334f08a070c6a420da780f, type: 3}
+  m_Name: UI Click
+  m_EditorClassIdentifier: Assembly-CSharp::SoundDefinition
+  _clips: []
+  _output: {fileID: 5167193596308334493, guid: 5859d9d5a9b0e224e8ca3a4f534aabd9, type: 2}
+  _volume: 0.55
+  _pitchRange: {x: 0.98, y: 1.02}
+  _loop: 0
+  _cooldown: 0
+  _minDistance: 1
+  _maxDistance: 30
+  _rolloffMode: 0
+  _priority: 32

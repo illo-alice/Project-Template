@@ -1,0 +1,484 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: UI Shared Data
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.SharedTableData
+  m_TableCollectionName: UI
+  m_TableCollectionNameGuidString: 23a1b164a6e9d3347b14ed1f356f1a28
+  m_Entries:
+  - m_Id: 92557488128
+    m_Key: connection_failed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 421210566656
+    m_Key: connection_retry_prompt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 497349767168
+    m_Key: try_again
+    m_Metadata:
+      m_Items: []
+  - m_Id: 544825094144
+    m_Key: play_offline
+    m_Metadata:
+      m_Items: []
+  - m_Id: 583953756160
+    m_Key: loading
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5869389164544
+    m_Key: connecting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6156103397376
+    m_Key: disconnected
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127416795869184
+    m_Key: leaving
+    m_Metadata:
+      m_Items: []
+  - m_Id: 335173289455616
+    m_Key: btn_host
+    m_Metadata:
+      m_Items: []
+  - m_Id: 335304474701824
+    m_Key: btn_join
+    m_Metadata:
+      m_Items: []
+  - m_Id: 335621153042432
+    m_Key: btn_settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 335721497571328
+    m_Key: btn_quit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 335791018160128
+    m_Key: btn_continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 335861725736960
+    m_Key: btn_invite
+    m_Metadata:
+      m_Items: []
+  - m_Id: 336006458585088
+    m_Key: btn_leave
+    m_Metadata:
+      m_Items: []
+  - m_Id: 336551479029760
+    m_Key: btn_credits
+    m_Metadata:
+      m_Items: []
+  - m_Id: 341083126706176
+    m_Key: btn_back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 341672833265664
+    m_Key: created_by_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 438815887667200
+    m_Key: applying_settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 438815887667201
+    m_Key: settings_load_failed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 438815887667202
+    m_Key: settings_load_failed_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 438815887667203
+    m_Key: settings_restore_backup
+    m_Metadata:
+      m_Items: []
+  - m_Id: 438815887667204
+    m_Key: settings_restore_defaults
+    m_Metadata:
+      m_Items: []
+  - m_Id: 438815887667205
+    m_Key: settings_current_file_error
+    m_Metadata:
+      m_Items: []
+  - m_Id: 438815887667206
+    m_Key: settings_backup_file_error
+    m_Metadata:
+      m_Items: []
+  - m_Id: 438815887667207
+    m_Key: settings_recovery_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 438815887667208
+    m_Key: btn_understood
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1050688748204032
+    m_Key: language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1050775784206336
+    m_Key: General
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1050796248215552
+    m_Key: Controls
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1050822529724416
+    m_Key: Graphics
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1050850572840960
+    m_Key: Audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1050865269682176
+    m_Key: Online
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124908556288
+    m_Key: mouse_sensitivity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124908556289
+    m_Key: invert_y
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124908556290
+    m_Key: screen_mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124908556291
+    m_Key: resolution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124908556292
+    m_Key: vsync
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750592
+    m_Key: fps_limit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750593
+    m_Key: graphics_quality
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750594
+    m_Key: microphone_mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750595
+    m_Key: input_device
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750596
+    m_Key: region
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750597
+    m_Key: show_ping
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750598
+    m_Key: windowed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750599
+    m_Key: borderless
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750600
+    m_Key: fullscreen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750601
+    m_Key: unlimited
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750602
+    m_Key: mic_off
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750603
+    m_Key: mic_ptt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750604
+    m_Key: mic_vad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750605
+    m_Key: system_default
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750606
+    m_Key: automatic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750607
+    m_Key: reset_binding
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750608
+    m_Key: rebind_hint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750609
+    m_Key: rebind_wait
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750610
+    m_Key: rebind_conflict
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750611
+    m_Key: action_move
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750612
+    m_Key: action_attack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750613
+    m_Key: action_interact
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750614
+    m_Key: action_crouch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750615
+    m_Key: action_jump
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750616
+    m_Key: action_previous
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750617
+    m_Key: action_next
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750618
+    m_Key: action_sprint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750619
+    m_Key: action_pushtotalk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750620
+    m_Key: binding_up
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750621
+    m_Key: binding_down
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750622
+    m_Key: binding_left
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1086124912750623
+    m_Key: binding_right
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1193990478835712
+    m_Key: save_initializing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1206540436189184
+    m_Key: btn_play
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1219000000000001
+    m_Key: save_last_saved_format
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1219000000000002
+    m_Key: save_created_format
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1219000000000003
+    m_Key: saves_empty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1219000000000004
+    m_Key: save_no_preview
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1233013385670656
+    m_Key: btn_new_game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1236072266412032
+    m_Key: name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1238614459232256
+    m_Key: btn_choose
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1242619642064896
+    m_Key: game_parameters
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1870169259061248
+    m_Key: creating_lobby
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1870169259061249
+    m_Key: lobby_max_players
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1870169259061250
+    m_Key: lobby_joinable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1870169259061251
+    m_Key: lobby_friends_only
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1871807210270720
+    m_Key: creating_session
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1871807210270721
+    m_Key: settings_tab_general
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1871807210270722
+    m_Key: settings_tab_controls
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1871807210270723
+    m_Key: settings_tab_graphics
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1871807210270724
+    m_Key: settings_tab_audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1871807210270725
+    m_Key: settings_tab_online
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1960147779530752
+    m_Key: btn_copy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1960313026719744
+    m_Key: btn_copied
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1961412211191808
+    m_Key: room_code
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1961412211191810
+    m_Key: error
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1961412211191811
+    m_Key: leave_failed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1961412211191812
+    m_Key: lobby_create_failed_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1961412211191813
+    m_Key: btn_delete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1961412211191814
+    m_Key: btn_cancel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1961412211191815
+    m_Key: save_delete_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1961412211191816
+    m_Key: save_delete_confirmation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1961412211191817
+    m_Key: save_delete_failed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1961412211191818
+    m_Key: lobby_access
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1961412211191819
+    m_Key: lobby_access_invite_only
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1961412211191820
+    m_Key: lobby_access_friends_only
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1961412211191821
+    m_Key: lobby_access_closed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1961412211191822
+    m_Key: steam_initializing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1961412211191823
+    m_Key: steam_init_failed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1961412211191824
+    m_Key: steam_init_failed_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2536005205712896
+    m_Key: join
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1961412211191825
+    m_Key: connect_failed_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1961412211191826
+    m_Key: join_failed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1961412211191905
+    m_Key: room_code_copied
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1961412211191906
+    m_Key: creating_save
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1961412211191907
+    m_Key: loading_save
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 4843586562860777752
+  references:
+    version: 2
+    RefIds:
+    - rid: 4843586562860777752
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1789477076576
