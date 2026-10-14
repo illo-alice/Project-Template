@@ -62,7 +62,6 @@ public class Session : INetworkRunnerCallbacks
     private readonly PlayerSpawnService _playerSpawnService;
     private IAuthenticationProvider _authenticationProvider;
     private IObjectResolver _objectResolver;
-    private SessionNetworkProxy _networkProxy;
     private SessionState _state;
     private bool _operationInProgress;
     private bool _isLeaving;
@@ -84,10 +83,9 @@ public class Session : INetworkRunnerCallbacks
         SceneLoadProgressChanged?.Invoke(progress);
     }
     
-    public Session(IAuthenticationProvider authenticationProvider, SessionNetworkProxy networkProxy, RegionParameter region, VoiceChatService voice, IObjectResolver objectResolver, PlayerSpawnService playerSpawnService)
+    public Session(IAuthenticationProvider authenticationProvider, RegionParameter region, VoiceChatService voice, IObjectResolver objectResolver, PlayerSpawnService playerSpawnService)
     {
         _authenticationProvider = authenticationProvider;
-        _networkProxy = networkProxy;
         _region = region;
         _voice = voice;
         _objectResolver = objectResolver;
@@ -119,6 +117,8 @@ public class Session : INetworkRunnerCallbacks
             cancellationToken.ThrowIfCancellationRequested();
             ThrowIfShutdown();
 
+            SetPlayerId(auth.UserId);
+
             var settings = PhotonAppSettings.Global.AppSettings.GetCopy();
 
             settings.FixedRegion = region ?? _region.FixedRegion ?? string.Empty;
@@ -134,7 +134,6 @@ public class Session : INetworkRunnerCallbacks
             {
                 ThrowIfShutdown();
                 _state = SessionState.Connected;
-                SetPlayerId(_runner.UserId);
             }
             else
             {
@@ -310,14 +309,11 @@ public class Session : INetworkRunnerCallbacks
 
     public async UniTask LoadLobby()
     {
-        await LoadScene(2, LoadSceneMode.Additive);
+        await LoadScene(SceneIndices.Lobby, LoadSceneMode.Additive);
         await SceneManager.UnloadSceneAsync("Menu");
     }
-    
-    public void LoadGame()
-    {
-        _networkProxy.RPC_LoadScene(3);
-    }
+
+    public void LoadGame() => SessionSceneRpc.RPC_LoadGame(Runner);
 
     public async UniTask LeaveAsync()
     {
@@ -416,7 +412,6 @@ public class Session : INetworkRunnerCallbacks
         _sceneManager = null;
         _objectProvider = null;
         _state = SessionState.Disconnected;
-        SetPlayerId(null);
     }
 
     private void SetPlayerId(string playerId)

@@ -19,7 +19,6 @@ public class AppLifetimeScope : LifetimeScope
         builder.RegisterEntryPoint<AppFlow>(Lifetime.Singleton);
         builder.Register<Session>(Lifetime.Singleton);
         builder.Register<GameSaveService>(Lifetime.Singleton);
-        builder.RegisterComponentInHierarchy<SessionNetworkProxy>();
         builder.Register<DevelopAuthenticationProvider>(Lifetime.Singleton).As<IAuthenticationProvider>();
         builder.RegisterEntryPoint<SceneLoadProgressHandler>(Lifetime.Singleton);
         builder.Register<MasterVolumeParameter>(Lifetime.Singleton);

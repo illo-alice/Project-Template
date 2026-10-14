@@ -4091,8 +4091,6 @@ GameObject:
   m_Component:
   - component: {fileID: 715506432}
   - component: {fileID: 715506433}
-  - component: {fileID: 715506434}
-  - component: {fileID: 715506435}
   m_Layer: 0
   m_Name: App Scope
   m_TagString: Untagged
@@ -4134,38 +4132,6 @@ MonoBehaviour:
   _audioMixer: {fileID: 24100000, guid: 5859d9d5a9b0e224e8ca3a4f534aabd9, type: 2}
   _inputActions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   _voiceSpeakerPrefab: {fileID: 7377528099058419097, guid: de9d7c7a9e188294cbdd94ac77534844, type: 3}
---- !u!114 &715506434
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 715506431}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 94b6a8284c54a2749bea07c56bfd997f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SessionSceneProxy
---- !u!114 &715506435
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 715506431}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1552182283, guid: e725a070cec140c4caffb81624c8c787, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Fusion.Runtime.dll::Fusion.NetworkObject
-  SortKey: 275863492
-  SendPriority: 1
-  EnableInterpolation: 1
-  Flags: 262146
-  NestedObjects: []
-  NetworkedBehaviours:
-  - {fileID: 715506434}
-  ForceRemoteRenderTimeframe: 0
 --- !u!1001 &739091473
 PrefabInstance:
   m_ObjectHideFlags: 0
