@@ -90,7 +90,7 @@ public class SteamService : ITickable, IDisposable, ILobbyProvider
             if (!lobby.SetJoinable(false) ||
                 !lobby.SetData(GameKey, GameIdentity) ||
                 !lobby.SetData(ReadyKey, "0") ||
-                !lobby.SetData(RoomCodeKey, _roomCodeService.Generate()) ||
+                !lobby.SetData(RoomCodeKey, _roomCodeService.Generate(region)) ||
                 !lobby.SetData(RegionKey, region) ||
                 !lobby.SetData(AccessKey, accessMode.ToString()) ||
                 !(accessMode == LobbyAccessMode.FriendsOnly ? lobby.SetFriendsOnly() : lobby.SetPrivate()))

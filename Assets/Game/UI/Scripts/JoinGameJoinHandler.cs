@@ -2,6 +2,7 @@ using System;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 using VContainer.Unity;
+using System.Text.RegularExpressions;
 
 public sealed class JoinGameJoinHandler : IStartable, IDisposable
 {
@@ -31,7 +32,7 @@ public sealed class JoinGameJoinHandler : IStartable, IDisposable
     private void Join(string code)
     {
         if (_leave.IsLeaving || _session.IsBusy || string.IsNullOrWhiteSpace(code) || !_session.TryBeginTransition()) return;
-        JoinAsync(code.Trim()).Forget(Debug.LogException);
+        JoinAsync(code).Forget(Debug.LogException);
     }
 
     private async UniTask JoinAsync(string code)
@@ -39,15 +40,26 @@ public sealed class JoinGameJoinHandler : IStartable, IDisposable
         var token = Application.exitCancellationToken;
         try
         {
+            code = code.Trim().ToLowerInvariant();
+
+            var parts = code.Split('-');
+
+            var region = parts[0];
+
             _joinScreen.SetInteractable(false);
             _pause.ResetAndBlock();
             _loading.SetStatus(S.UI("connecting"));
             await _loading.SelectBar(LoadingScreen.BarType.LoadingBar, cancellationToken: token);
             await _loading.Show(cancellationToken: token);
-            if (!_session.IsConnected)
+            if (!_session.IsConnected ||
+                !string.Equals(_session.Region, region, StringComparison.OrdinalIgnoreCase))
             {
-                var connection = await _session.Connect(cancellationToken: token);
-                if (!connection.Ok) throw new InvalidOperationException($"Connection failed: {connection.ShutdownReason}");
+                await _session.LeaveAsync();
+
+                var connection = await _session.Connect(region, token);
+                if (!connection.Ok)
+                    throw new InvalidOperationException(
+                        $"Connection failed: {connection.ShutdownReason}");
             }
             _loading.SetStatus(S.UI("loading"));
             var result = await _session.JoinLobby(code);
