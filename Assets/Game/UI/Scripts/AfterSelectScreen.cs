@@ -19,7 +19,7 @@ public sealed class AfterSelectScreen : MonoBehaviour
     public event Action Play;
     public event Action Back;
     
-    public string SaveName => string.IsNullOrEmpty(_nameInput.text) ? "New Game" : _nameInput.text;
+    public string SaveName => string.IsNullOrWhiteSpace(_nameInput.text) ? "New Game" : _nameInput.text.Trim();
     public int MaxPlayers => Mathf.RoundToInt(_maxPlayersSlider.Value);
     public LobbyAccessMode AccessMode => (LobbyAccessMode)_lobbyAccessDropdown.value;
 

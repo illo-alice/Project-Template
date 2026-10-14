@@ -43,10 +43,13 @@ public class GameSaveService : IDisposable
     // image contains PNG bytes. The owner is assigned once, when the save is created.
     public async UniTask<SaveInfo> Create(string name, byte[] image = null, CancellationToken cancellationToken = default)
     {
+        if (string.IsNullOrWhiteSpace(name))
+            throw new ArgumentException("Save name cannot be empty.", nameof(name));
+
         await _storageGate.WaitAsync(cancellationToken);
         try
         {
-            var playerId = RequirePlayerId(); // Session gets this from Photon Fusion's NetworkRunner.UserId.
+            var playerId = RequirePlayerId();
             var save = new GameSaveData
             {
                 Id = Guid.NewGuid().ToString("N"),
@@ -277,7 +280,7 @@ public class GameSaveService : IDisposable
     private string RequirePlayerId()
     {
         if (string.IsNullOrWhiteSpace(_session.PlayerId))
-            throw new InvalidOperationException("Connect to Photon Fusion before accessing game saves.");
+            throw new InvalidOperationException("Player identity is not initialized.");
         return _session.PlayerId;
     }
 
